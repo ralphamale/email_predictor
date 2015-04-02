@@ -2,8 +2,9 @@
 
 To run with tests, go to directory and `bundle install` if necessary, and then you can run `rspec spec`
 
-    initial_data_hash = {  "John Ferguson" => "john.ferguson@alphasights.com",  "Damon Aw" => "damon.aw@alphasights.com",  "Linda Li" => "linda.li@alphasights.com",  "Larry Page" => "larry.p@google.com",  "Sergey Brin" => "s.brin@google.com",  "Steve Jobs" => "s.j@apple.com"}
- => {"John Ferguson"=>"john.ferguson@alphasights.com", "Damon Aw"=>"damon.aw@alphasights.com", "Linda Li"=>"linda.li@alphasights.com", "Larry Page"=>"larry.p@google.com", "Sergey Brin"=>"s.brin@google.com", "Steve Jobs"=>"s.j@apple.com"} 
+    initial_data_hash = {  "John Ferguson" => "john.ferguson@alphasights.com",  "Damon Aw" => "damon.aw@alphasights.com",  "Linda Li" => "linda.li@alphasights.com",  
+    "Larry Page" => "larry.p@google.com",  "Sergey Brin" => "s.brin@google.com",  "Steve Jobs" => "s.j@apple.com"}
+     => {"John Ferguson"=>"john.ferguson@alphasights.com", "Damon Aw"=>"damon.aw@alphasights.com", "Linda Li"=>"linda.li@alphasights.com", "Larry Page"=>"larry.p@google.com", "Sergey Brin"=>"s.brin@google.com", "Steve Jobs"=>"s.j@apple.com"} 
     
     predictor = EmailPredictor.new(initial_data_hash)
     
